@@ -8,6 +8,8 @@ case $- in
       *) return;;
 esac
 
+curl wttr.in #star a weather app at runtime
+
 LS_COLORS="di=1;35:ex=4;31:*.mp3=1;32;41"
 
 # don't put duplicate lines or lines starting with space in the history.
